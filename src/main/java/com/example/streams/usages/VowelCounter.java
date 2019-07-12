@@ -1,9 +1,9 @@
 package com.example.streams.usages;
 
-import com.example.streams.Stream;
+import com.example.streams.InputStream;
 
 public class VowelCounter {
-    public int countVowels(Stream stream){
+    public int countVowels(InputStream stream){
         int count = 0;
         while(stream.hasNext()){
             char character = stream.read();

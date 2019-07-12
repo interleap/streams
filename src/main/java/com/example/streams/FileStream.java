@@ -1,6 +1,6 @@
 package com.example.streams;
 
-public class FileStream implements Stream {
+public class FileStream implements OutputStream, InputStream {
     @Override
     public char read() {
         return 0;

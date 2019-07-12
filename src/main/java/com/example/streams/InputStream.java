@@ -1,7 +1,7 @@
 package com.example.streams;
 
-public interface Stream {
+public interface InputStream {
     char read();
     boolean hasNext();
-    void write(char output);
+
 }

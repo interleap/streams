@@ -1,18 +1,18 @@
 package com.example.streams.usages;
 
-import com.example.streams.Stream;
+import com.example.streams.OutputStream;
 
 public class ParagraphWriter {
 
-    private final Stream stream;
+    private final OutputStream outputStream;
 
-    public ParagraphWriter(Stream stream){
+    public ParagraphWriter(OutputStream outputStream){
 
-        this.stream = stream;
+        this.outputStream = outputStream;
     }
     public void write(String string){
         for (int i = 0; i < string.length(); i++) {
-             stream.write(string.charAt(i));
+             outputStream.write(string.charAt(i));
         }
     }
 
